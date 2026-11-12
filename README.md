@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="./assets/banner.png" width="100%" alt="Aryan Mane AI Developer Banner"/>
+<img src="./banner.png" width="100%" alt="Aryan Mane AI Developer Banner"/>
 
 </div>
 
@@ -13,7 +13,7 @@
 <tr>
 <td width="180" align="center" valign="middle">
 
-<img src="./assets/avatar.png" width="150" alt="Aryan Mane"/>
+<img src="./avatar.png" width="150" alt="Aryan Mane"/>
 
 </td>
 <td valign="middle">
