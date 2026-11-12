@@ -23,21 +23,21 @@
 
 ---
 
-## `01 // ABOUT ME`
+## `01 ABOUT ME`
 
 I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate who loves exploring new technologies, discovering new ideas and building meaningful projects.
 
-- 🎓 Pursuing B.Tech in Artificial Intelligence & Machine Learning at AISSMS COE.
-- 🤖 Interested in AI, Machine Learning and emerging technologies.
-- 🔬 Exploring research, intelligent systems and real-world applications.
-- 🚀 Participating in hackathons and technology projects.
-- 🌌 Passionate about space technology, exploration and innovation.
+- Pursuing B.Tech in Artificial Intelligence & Machine Learning at AISSMS COE.
+- Interested in AI, Machine Learning and emerging technologies.
+- Exploring research, intelligent systems and real-world applications.
+- Participating in hackathons and technology projects.
+- Passionate about space technology, exploration and innovation.
 
 > "Dream big. Explore beyond limits. Build the future."
 
 ---
 
-## `02 // TECH ARSENAL`
+## `02 TECH ARSENAL`
 
 <div align="center">
 
@@ -63,7 +63,7 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 ---
 
-## `03 // FEATURED PROJECTS`
+## `03 FEATURED PROJECTS`
 
 <div align="center">
 
@@ -79,7 +79,7 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 <img src="./plant-disease.png" width="100%" alt="Plant Disease Detection"/>
 
-### 🌿 AI Plant Disease Detection
+### AI Plant Disease Detection (SWARNA)
 
 AI-powered plant disease diagnosis and farmer assistance.
 
@@ -94,7 +94,7 @@ AI-powered plant disease diagnosis and farmer assistance.
 
 <img src="./zerogo.png" width="100%" alt="ZEROGO"/>
 
-### 🛡️ ZEROGO
+### AI Agent Verification & Safety System (ZEROGO)
 
 ![Status](https://img.shields.io/badge/STATUS-WORK%20IN%20PROGRESS-FFB020?style=for-the-badge&logo=hammer&logoColor=black)
 
@@ -112,7 +112,7 @@ AI-powered plant disease diagnosis and farmer assistance.
 
 <img src="./prithvinet.png" width="100%" alt="PrithviNet AI"/>
 
-### 🌍 PrithviNet AI
+### Intelligent Disaster Resilience System (PrithviNet AI)
 
 A climate-focused digital twin exploring environmental and geospatial intelligence.
 
@@ -127,7 +127,7 @@ A climate-focused digital twin exploring environmental and geospatial intelligen
 
 <img src="./voice-rakshak.png" width="100%" alt="Voice Rakshak"/>
 
-### 🎙️ Voice Rakshak
+### AI-Based Voice Fraud Detection (Voice Rakshak)
 
 An AI-based concept for voice authenticity and fraud detection.
 
@@ -151,7 +151,7 @@ An AI-based concept for voice authenticity and fraud detection.
 
 ---
 
-## `04 // GITHUB TELEMETRY`
+## `04 GITHUB TELEMETRY`
 
 <div align="center">
 
