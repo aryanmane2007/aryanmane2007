@@ -7,32 +7,19 @@
 
 <img src="./banner.png" width="100%" alt="Aryan Mane AI Developer Banner"/>
 
-</div>
-
-<table>
-<tr>
-<td width="180" align="center" valign="middle">
-
-<img src="./avatar.png" width="150" alt="Aryan Mane"/>
-
-</td>
-<td valign="middle">
-
 # ARYAN MANE
 
 ### AI / ML DEVELOPER • ASPIRING RESEARCHER
 
 *Exploring ideas. Building intelligence. Creating impact.*
 
-📍 Pune, India | B.Tech AI & ML | AISSMS College of Engineering
-
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0B1729?style=for-the-badge&logo=linkedin&logoColor=57DFFF)](https://www.linkedin.com/in/aryan-mane-b92914300)
 [![GitHub](https://img.shields.io/badge/GITHUB-FOLLOW-0B1729?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/aryanmane2007)
 [![Email](https://img.shields.io/badge/EMAIL-CONTACT-0B1729?style=for-the-badge&logo=gmail&logoColor=57DFFF)](mailto:aryan.mane2102@gmail.com)
 
-</td>
-</tr>
-</table>
+📍 Pune, India | B.Tech AI & ML | AISSMS College of Engineering
+
+</div>
 
 ---
 
@@ -90,7 +77,7 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/plant-disease.png" width="100%" alt="Plant Disease Detection"/>
+<img src="./plant-disease.png" width="100%" alt="Plant Disease Detection"/>
 
 ### 🌿 AI Plant Disease Detection
 
@@ -105,7 +92,7 @@ AI-powered plant disease diagnosis and farmer assistance.
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/zerogo.png" width="100%" alt="ZEROGO"/>
+<img src="./zerogo.png" width="100%" alt="ZEROGO"/>
 
 ### 🛡️ ZEROGO
 
@@ -123,7 +110,7 @@ AI-powered plant disease diagnosis and farmer assistance.
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/prithvinet.png" width="100%" alt="PrithviNet AI"/>
+<img src="./prithvinet.png" width="100%" alt="PrithviNet AI"/>
 
 ### 🌍 PrithviNet AI
 
@@ -138,7 +125,7 @@ A climate-focused digital twin exploring environmental and geospatial intelligen
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/voice-rakshak.png" width="100%" alt="Voice Rakshak"/>
+<img src="./voice-rakshak.png" width="100%" alt="Voice Rakshak"/>
 
 ### 🎙️ Voice Rakshak
 
