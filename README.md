@@ -151,21 +151,7 @@ An AI-based concept for voice authenticity and fraud detection.
 
 ---
 
-## `04 GITHUB TELEMETRY`
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aryanmane2007&show_icons=true&hide_border=true&bg_color=080F20&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF"/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aryanmane2007&layout=compact&hide_border=true&bg_color=080F20&title_color=00D9FF&text_color=FFFFFF"/>
-
-<img width="90%" src="https://streak-stats.demolab.com?user=aryanmane2007&hide_border=true&background=080F20&ring=00D9FF&fire=9D6BFF&currStreakLabel=00D9FF&sideLabels=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B9BB4"/>
-
-</div>
-
----
-
-## `05 // ACHIEVEMENTS & MILESTONES`
+## `04 ACHIEVEMENTS & MILESTONES`
 
 - 🏆 Cummins India Scholarship Recipient.
 - 🚀 ISRO learning and visit opportunity through a school-level scholarship examination.
@@ -174,7 +160,7 @@ An AI-based concept for voice authenticity and fraud detection.
 
 ---
 
-## `06 // ESTABLISH CONNECTION`
+## `05 ESTABLISH CONNECTION`
 
 <div align="center">
 
