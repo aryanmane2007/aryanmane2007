@@ -1,4 +1,3 @@
-
 <!-- =================================================== -->
 <!-- ARYAN MANE | FUTURISTIC AI DEVELOPER PORTFOLIO       -->
 <!-- GitHub: aryanmane2007                                -->
@@ -88,22 +87,22 @@ AI-powered plant disease diagnosis and farmer assistance.
 
 [**MORE INFO ↗**](YOUR_PLANT_INFO_URL)
 
-[**VIEW DEMO ▶**](YOUR_PLANT_DEMO_URL)
+[**DEMO ▶**](YOUR_PLANT_DEMO_URL)
 
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/groundtruth.png" width="100%" alt="GroundTruth"/>
+<img src="./assets/zerogo.png" width="100%" alt="ZEROGO"/>
 
-### 🛡️ GroundTruth
+### 🛡️ ZEROGO
 
-An AI-agent verification system designed to validate intentions and proposed actions.
+![Status](https://img.shields.io/badge/STATUS-WORK%20IN%20PROGRESS-FFB020?style=for-the-badge&logo=hammer&logoColor=black)
 
-`Python` `NLP` `AI` `Verification`
+🚧 Currently under development. More details and a demo coming soon.
 
-[**MORE INFO ↗**](YOUR_GROUNDTRUTH_INFO_URL)
+[**MORE INFO ↗**](YOUR_ZEROGO_INFO_URL)
 
-[**VIEW DEMO ▶**](YOUR_GROUNDTRUTH_DEMO_URL)
+[**DEMO ▶**](YOUR_ZEROGO_DEMO_URL)
 
 </td>
 </tr>
@@ -121,7 +120,7 @@ A climate-focused digital twin exploring environmental and geospatial intelligen
 
 [**MORE INFO ↗**](YOUR_PRITHVINET_INFO_URL)
 
-[**VIEW DEMO ▶**](YOUR_PRITHVINET_DEMO_URL)
+[**DEMO ▶**](YOUR_PRITHVINET_DEMO_URL)
 
 </td>
 <td width="50%" valign="top">
@@ -136,7 +135,7 @@ An AI-based concept for voice authenticity and fraud detection.
 
 [**MORE INFO ↗**](YOUR_VOICE_RAKSHAK_INFO_URL)
 
-[**VIEW DEMO ▶**](YOUR_VOICE_RAKSHAK_DEMO_URL)
+[**DEMO ▶**](YOUR_VOICE_RAKSHAK_DEMO_URL)
 
 </td>
 </tr>
