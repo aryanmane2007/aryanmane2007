@@ -64,6 +64,7 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 ---
 
+
 ## `03 FEATURED PROJECTS`
 
 <div align="center">
@@ -80,62 +81,147 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 <img src="./plant-disease.png" width="100%" alt="Plant Disease Detection"/>
 
-### AI-Based Plant Disease Detection System (SWARNA)
+### AI Plant Disease Detection System
 
 AI-powered plant disease diagnosis and farmer assistance.
 
 `Python` `FastAPI` `MySQL` `Gemini API`
 
-[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=plant&view=info)
+<details>
+<summary><strong>MORE INFO ↗</strong></summary>
 
-[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=plant&view=demo)
+### Project Overview
+
+An AI-based system designed to help farmers identify plant diseases and access useful agricultural guidance.
+
+### Key Features
+
+- Plant disease identification using images.
+- AI-powered question answering.
+- Multilingual assistance.
+- Treatment and prevention recommendations.
+- Farmer-focused agricultural support.
+
+### Technology Stack
+
+`Python` `FastAPI` `MySQL` `Gemini API` `ResNet18`
+
+### My Contribution
+
+Backend development, API integration, training and testing support, and frontend coordination.
+
+</details>
+
+[**VIEW DEMO ▶**](YOUR_PLANT_DEMO_URL)
 
 </td>
+
 <td width="50%" valign="top">
 
 <img src="./zerogo.png" width="100%" alt="GroundTruth"/>
 
-### AI Agent Verification & Safety (ZEROGO)
+### GroundTruth – AI Agent Verification
 
-An independent verification layer that checks user intent, evidence and proposed AI-agent actions before execution.
+![Status](https://img.shields.io/badge/STATUS-WORK%20IN%20PROGRESS-FFB020?style=for-the-badge&logo=hammer&logoColor=black)
+
+An intelligent verification layer designed to prevent unsafe AI agent actions.
 
 `AI` `NLP` `Python` `Agent Safety`
 
-[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=groundtruth&view=info)
+<details>
+<summary><strong>MORE INFO ↗</strong></summary>
 
-[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=groundtruth&view=demo)
+### Project Overview
+
+An AI agent verification and safety system that checks user intent, the agent's understanding, and its proposed actions before execution.
+
+### Key Features
+
+- User intent verification.
+- Proposed action validation.
+- Evidence-based decision checking.
+- ALLOW, BLOCK and REVIEW decisions.
+- English, Hindi and Marathi support.
+
+### Technology
+
+`Python` `NLP` `AI` `Agent Verification`
+
+</details>
+
+[**VIEW DEMO ▶**](YOUR_GROUNDTRUTH_DEMO_URL)
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
 <img src="./prithvinet.png" width="100%" alt="PrithviNet AI"/>
 
-### Climate & Disaster Intelligence (PrithviNet AI)
+### PrithviNet AI – Climate Digital Twin
 
-A climate-focused digital twin exploring environmental and geospatial intelligence, disaster awareness and water-resource planning.
+An intelligent climate and geospatial system for disaster resilience and environmental planning.
 
 `AI` `Geospatial Data` `Climate`
 
-[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=prithvinet&view=info)
+<details>
+<summary><strong>MORE INFO ↗</strong></summary>
 
-[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=prithvinet&view=demo)
+### Project Overview
+
+An AI-powered digital twin of India's climate and environment that explores geospatial intelligence for disaster awareness and water-resource planning.
+
+### Key Features
+
+- Climate and environmental data visualization.
+- Impacted-area identification.
+- Disaster evacuation route simulation.
+- Water-resource planning.
+- Geospatial intelligence.
+
+### Technology
+
+`AI` `Geospatial Data` `Climate Data` `Mapping`
+
+</details>
+
+[**VIEW DEMO ▶**](YOUR_PRITHVINET_DEMO_URL)
 
 </td>
+
 <td width="50%" valign="top">
 
 <img src="./voice-rakshak.png" width="100%" alt="Voice Rakshak"/>
 
-### AI Voice Fraud Detection (Voice Rakshak)
+### Voice Rakshak – AI Voice Fraud Detection
 
-An AI-based concept for voice authenticity analysis and potential audio-fraud detection.
+An AI-based concept for voice authenticity and fraud detection.
 
 `Python` `Audio Processing` `AI`
 
-[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=voice-rakshak&view=info)
+<details>
+<summary><strong>MORE INFO ↗</strong></summary>
 
-[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=voice-rakshak&view=demo)
+### Project Overview
+
+An AI-based voice security system designed to identify potentially fraudulent, replayed or manipulated voice recordings.
+
+### Key Features
+
+- AI-generated voice detection.
+- Voice authenticity analysis.
+- Replay detection.
+- Voice manipulation detection.
+- Suspicious audio pattern analysis.
+
+### Technology
+
+`Python` `Audio Processing` `Deep Learning` `AI`
+
+</details>
+
+[**VIEW DEMO ▶**](YOUR_VOICE_RAKSHAK_DEMO_URL)
 
 </td>
 </tr>
@@ -143,13 +229,11 @@ An AI-based concept for voice authenticity analysis and potential audio-fraud de
 
 <div align="center">
 
-[![Explore Portfolio](https://img.shields.io/badge/OPEN-INTERACTIVE%20PROJECT%20PORTFOLIO-00CFFF?style=for-the-badge&logo=github&logoColor=black)](https://aryanmane2007.github.io/aryanmane2007/)
+[![Explore Projects](https://img.shields.io/badge/EXPLORE-ALL%20PROJECTS-00CFFF?style=for-the-badge&logo=github&logoColor=black)](YOUR_ALL_PROJECTS_URL)
 
 *More projects and experiments coming soon...*
 
 </div>
-
----
 
 ## `04 ACHIEVEMENTS & MILESTONES`
 
