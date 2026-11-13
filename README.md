@@ -3,7 +3,7 @@
  GitHub: aryanmane2007
 ==================================================== -->
 
-<div align="center">
+<div>
 
 <img src="./banner.png" width="100%" alt="Aryan Mane AI Developer Banner"/>
 
@@ -80,7 +80,7 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 <img src="./plant-disease.png" width="100%" alt="Plant Disease Detection"/>
 
-### AI-Based Plant Disease Detection System
+### AI-Based Plant Disease Detection System (SWARNA)
 
 AI-powered plant disease diagnosis and farmer assistance.
 
@@ -95,7 +95,7 @@ AI-powered plant disease diagnosis and farmer assistance.
 
 <img src="./zerogo.png" width="100%" alt="GroundTruth"/>
 
-### GroundTruth — AI Agent Verification & Safety
+### AI Agent Verification & Safety (ZEROGO)
 
 An independent verification layer that checks user intent, evidence and proposed AI-agent actions before execution.
 
@@ -112,7 +112,7 @@ An independent verification layer that checks user intent, evidence and proposed
 
 <img src="./prithvinet.png" width="100%" alt="PrithviNet AI"/>
 
-### PrithviNet AI — Climate & Disaster Intelligence
+### Climate & Disaster Intelligence (PrithviNet AI)
 
 A climate-focused digital twin exploring environmental and geospatial intelligence, disaster awareness and water-resource planning.
 
@@ -127,7 +127,7 @@ A climate-focused digital twin exploring environmental and geospatial intelligen
 
 <img src="./voice-rakshak.png" width="100%" alt="Voice Rakshak"/>
 
-### Voice Rakshak — AI Voice Fraud Detection
+### AI Voice Fraud Detection (Voice Rakshak)
 
 An AI-based concept for voice authenticity analysis and potential audio-fraud detection.
 
