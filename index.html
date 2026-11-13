@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aryan Mane | Project Portfolio</title>
+<style>
+:root{--bg:#070d1b;--panel:#0b1426;--panel2:#101d33;--line:#263750;--cyan:#25d8ff;--text:#edf5ff;--muted:#a8b8cc;--green:#00d68f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#142d50 0,#070d1b 45%);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;min-height:100vh}
+header{max-width:1120px;margin:auto;padding:55px 24px 28px;text-align:center}header .eyebrow{color:var(--cyan);letter-spacing:3px;font-size:12px;font-weight:700}h1{font-size:clamp(32px,6vw,58px);margin:14px 0 8px}header p{color:var(--muted);margin:0}
+main{max-width:1120px;margin:0 auto;padding:20px 24px 70px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.card{background:linear-gradient(145deg,#101d32,#091222);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 12px 36px #0005}
+.thumb{height:190px;background:#111f34;display:flex;align-items:center;justify-content:center;color:#7186a2;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover}.cardbody{padding:20px}.tag{font-size:11px;color:var(--cyan);font-weight:700;letter-spacing:1px}.card h2{font-size:20px;margin:9px 0}.card p{color:var(--muted);line-height:1.6;font-size:14px}.chips{display:flex;flex-wrap:wrap;gap:7px;margin:15px 0}.chip{font-size:11px;color:#9bdfff;background:#102b48;border:1px solid #17466b;padding:5px 9px;border-radius:20px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.btn{border:1px solid #176080;background:#0d2a43;color:#dff9ff;padding:10px 14px;border-radius:8px;font-weight:700;font-size:12px;letter-spacing:.5px;cursor:pointer;text-decoration:none}.btn.primary{background:var(--cyan);color:#03111c;border-color:var(--cyan)}.btn:hover{filter:brightness(1.15);transform:translateY(-1px)}
+footer{text-align:center;color:#71849e;padding:25px;font-size:12px}
+.modal{position:fixed;inset:0;background:#020611d9;backdrop-filter:blur(9px);display:none;align-items:center;justify-content:center;padding:22px;z-index:20}.modal.open{display:flex}.dialog{width:min(850px,100%);max-height:90vh;overflow:auto;background:#081222;border:1px solid #24516e;border-radius:16px;box-shadow:0 25px 90px #000b;position:relative}
+.dialogtop{padding:24px 28px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;align-items:flex-start}.dialogtop h2{margin:7px 0 0;font-size:clamp(22px,4vw,30px)}.close{background:#14243a;border:1px solid #344a63;color:#eaf7ff;border-radius:50%;width:36px;height:36px;font-size:20px;cursor:pointer;flex:none}
+.dialogcontent{padding:22px 28px 28px}.category{color:var(--cyan);font-size:11px;font-weight:800;letter-spacing:1.4px}.lead{color:#c5d3e4;line-height:1.7}.section{border-top:1px solid var(--line);padding:18px 0}.section h3{font-size:14px;margin:0 0 14px}.featuregrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.feature{font-size:13px;color:#d8e6f5}.feature:before{content:"⊙";color:var(--cyan);margin-right:8px}.stack{display:flex;gap:8px;flex-wrap:wrap}.stack span{background:#102b48;color:#38aaff;border-radius:20px;padding:5px 10px;font-size:12px}.contribution{color:#c5d3e4;line-height:1.6}.demo-note{color:var(--muted);font-size:13px}.media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.media-grid img,.media-grid video{width:100%;border-radius:9px;border:1px solid var(--line);background:#020814;max-height:260px;object-fit:contain}.media-grid figure{margin:0}.media-grid figcaption{font-size:11px;color:var(--muted);padding:7px 2px}.video-wrap{margin-top:16px}.video-wrap video{width:100%;max-height:440px;background:#020814;border-radius:10px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.featuregrid,.media-grid{grid-template-columns:1fr}.dialogtop,.dialogcontent{padding-left:18px;padding-right:18px}.thumb{height:170px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="eyebrow">ARYAN MANE · PROJECT SHOWCASE</div>
+ <h1>Ideas into Intelligent Systems.</h1>
+ <p>Selected projects, experiments and technology explorations.</p>
+</header>
+<main><div class="grid" id="projectGrid"></div></main>
+<footer>© Aryan Mane · AI / ML Developer · <a style="color:#25d8ff" href="https://github.com/aryanmane2007">GitHub</a></footer>
+
+<div class="modal" id="projectModal" aria-hidden="true">
+ <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="dialogtop"><div><div class="category" id="modalCategory">PROJECT DETAILS</div><h2 id="modalTitle"></h2></div><button class="close" aria-label="Close" onclick="closeModal()">×</button></div>
+  <div class="dialogcontent">
+   <p class="lead" id="modalDescription"></p>
+   <section class="section"><h3>KEY FEATURES</h3><div class="featuregrid" id="modalFeatures"></div></section>
+   <section class="section"><h3>TECHNOLOGY STACK</h3><div class="stack" id="modalStack"></div></section>
+   <section class="section"><h3>MY CONTRIBUTION</h3><p class="contribution" id="modalContribution"></p></section>
+   <div class="actions"><button class="btn primary" id="modalDemoButton">VIEW PROJECT DEMO ▶</button></div>
+  </div>
+ </div>
+</div>
+
+<div class="modal" id="demoModal" aria-hidden="true">
+ <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="demoTitle">
+  <div class="dialogtop"><div><div class="category">PROJECT MEDIA · SCREENSHOTS & VIDEO</div><h2 id="demoTitle"></h2></div><button class="close" aria-label="Close" onclick="closeModal()">×</button></div>
+  <div class="dialogcontent">
+   <p class="demo-note">Project walkthrough, interface screenshots and demonstration video.</p>
+   <section class="section"><h3>IMAGE GALLERY</h3><div class="media-grid" id="demoImages"></div></section>
+   <section class="section video-wrap"><h3>VIDEO DEMONSTRATION</h3><div id="demoVideos"></div></section>
+   <p class="demo-note">To add your media, place files in <b>assets/projects/</b> and <b>assets/demos/</b>, then update the media filenames in this website's PROJECTS section.</p>
+  </div>
+ </div>
+</div>
+<script>
+/* Replace the sample media paths with your actual screenshots and videos.
+   Image examples: assets/projects/plant-screen-1.png
+   Video examples: assets/demos/plant-demo.mp4
+*/
+const PROJECTS = {
+ plant:{
+  title:"AI-Based Plant Disease Detection System",category:"ARTIFICIAL INTELLIGENCE · AGRICULTURE TECHNOLOGY",
+  description:"An AI-powered system designed to assist farmers in identifying plant diseases and understanding possible treatments through image-based diagnosis and intelligent assistance.",
+  features:["Image-based disease diagnosis","Multilingual AI assistance","Treatment recommendations","Farmer-focused guidance"],
+  stack:["Python","FastAPI","MySQL","Gemini API"],
+  contribution:"Backend development, AI integration, testing and project coordination.",
+  cover:"assets/projects/plant-disease.png",
+  images:["assets/projects/plant-screen-1.png","assets/projects/plant-screen-2.png"],
+  videos:["assets/demos/plant-demo.mp4"]
+ },
+ groundtruth:{
+  title:"GroundTruth — AI Agent Verification & Safety System",category:"ARTIFICIAL INTELLIGENCE · AGENT SAFETY",
+  description:"An independent verification layer designed to check user intent, supporting evidence and proposed AI-agent actions before execution.",
+  features:["User-intent verification","Proposed action validation","Evidence-based checking","ALLOW · BLOCK · REVIEW decisions","English, Hindi and Marathi support"],
+  stack:["Python","AI / NLP","Agent Safety","Verification Middleware"],
+  contribution:"System concept, backend architecture and verification workflow design.",
+  cover:"assets/projects/groundtruth.png",
+  images:["assets/projects/groundtruth-screen-1.png","assets/projects/groundtruth-screen-2.png"],
+  videos:["assets/demos/groundtruth-demo.mp4"]
+ },
+ prithvinet:{
+  title:"PrithviNet AI — Climate & Disaster Intelligence",category:"CLIMATE TECHNOLOGY · GEOSPATIAL INTELLIGENCE",
+  description:"A climate-focused digital twin exploring environmental and geospatial intelligence for disaster awareness, impacted-area analysis and water-resource planning.",
+  features:["Climate and environmental visualization","Impacted-area identification","Evacuation route simulation","Water-resource planning"],
+  stack:["AI","Geospatial Data","Climate Data","Mapping"],
+  contribution:"Project development and coordination, system workflow and simulation planning.",
+  cover:"assets/projects/prithvinet.png",
+  images:["assets/projects/prithvinet-screen-1.png","assets/projects/prithvinet-screen-2.png"],
+  videos:["assets/demos/prithvinet-demo.mp4"]
+ },
+ voice:{
+  title:"Voice Rakshak — AI Voice Fraud Detection",category:"ARTIFICIAL INTELLIGENCE · AUDIO SECURITY",
+  description:"An AI-based concept focused on voice authenticity analysis and identifying potentially fraudulent or manipulated audio.",
+  features:["AI-generated voice detection concept","Voice authenticity analysis","Replay and manipulation checks","Suspicious audio pattern analysis"],
+  stack:["Python","Audio Processing","AI","Deep Learning"],
+  contribution:"Problem research, solution design and system feature planning.",
+  cover:"assets/projects/voice-rakshak.png",
+  images:["assets/projects/voice-screen-1.png","assets/projects/voice-screen-2.png"],
+  videos:["assets/demos/voice-demo.mp4"]
+ }
+};
+const grid=document.getElementById("projectGrid");
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+Object.entries(PROJECTS).forEach(([id,p])=>{
+ const card=document.createElement("article");card.className="card";
+ card.innerHTML=`<div class="thumb"><img src="${p.cover}" alt="${esc(p.title)} preview" onerror="this.style.display='none';this.parentElement.textContent='ADD PROJECT COVER IMAGE'"></div>
+ <div class="cardbody"><div class="tag">${esc(p.category)}</div><h2>${esc(p.title)}</h2><p>${esc(p.description)}</p><div class="chips">${p.stack.map(x=>`<span class="chip">${esc(x)}</span>`).join("")}</div>
+ <div class="actions"><button class="btn primary" onclick="openInfo('${id}')">MORE INFO ↗</button><button class="btn" onclick="openDemo('${id}')">VIEW DEMO ▶</button></div></div>`;
+ grid.appendChild(card);
+});
+function openInfo(id){
+ const p=PROJECTS[id];if(!p)return;
+ document.getElementById("modalCategory").textContent=p.category;
+ document.getElementById("modalTitle").textContent=p.title;
+ document.getElementById("modalDescription").textContent=p.description;
+ document.getElementById("modalFeatures").innerHTML=p.features.map(x=>`<div class="feature">${esc(x)}</div>`).join("");
+ document.getElementById("modalStack").innerHTML=p.stack.map(x=>`<span>${esc(x)}</span>`).join("");
+ document.getElementById("modalContribution").textContent=p.contribution;
+ document.getElementById("modalDemoButton").onclick=()=>openDemo(id);
+ showModal("projectModal");
+}
+function openDemo(id){
+ const p=PROJECTS[id];if(!p)return;
+ document.getElementById("demoTitle").textContent=p.title;
+ document.getElementById("demoImages").innerHTML=p.images.map((src,i)=>`<figure><img src="${src}" alt="Project screenshot ${i+1}" onerror="this.parentElement.innerHTML='<div style=&quot;padding:35px 10px;text-align:center;color:#8296b1;border:1px dashed #344a63;border-radius:9px&quot;>Add screenshot ${i+1}<br><small>${src}</small></div>'"><figcaption>SCREENSHOT ${String(i+1).padStart(2,"0")}</figcaption></figure>`).join("");
+ document.getElementById("demoVideos").innerHTML=p.videos.map((src,i)=>`<div style="margin-bottom:14px"><video controls preload="metadata"><source src="${src}" type="video/mp4">Your browser does not support video.</video><div class="demo-note">DEMO VIDEO ${String(i+1).padStart(2,"0")} · ${src}</div></div>`).join("");
+ showModal("demoModal");
+}
+function showModal(id){closeModal(false);const el=document.getElementById(id);el.classList.add("open");el.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";}
+function closeModal(reset=true){document.querySelectorAll(".modal").forEach(m=>{m.classList.remove("open");m.setAttribute("aria-hidden","true")});document.body.style.overflow="";if(reset)history.replaceState(null,"",location.pathname);}
+document.querySelectorAll(".modal").forEach(m=>m.addEventListener("click",e=>{if(e.target===m)closeModal()}));
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+const params=new URLSearchParams(location.search),project=params.get("project"),view=params.get("view");
+if(project&&PROJECTS[project]){if(view==="demo")openDemo(project);else openInfo(project);}
+</script>
+</body>
+</html>
