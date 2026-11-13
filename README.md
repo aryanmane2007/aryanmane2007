@@ -112,7 +112,6 @@ Backend development, API integration, training and testing support, and frontend
 
 </details>
 
-[**VIEW DEMO ▶**](YOUR_PLANT_DEMO_URL)
 
 </td>
 
@@ -149,7 +148,6 @@ An AI agent verification and safety system that checks user intent, the agent's 
 
 </details>
 
-[**VIEW DEMO ▶**](YOUR_GROUNDTRUTH_DEMO_URL)
 
 </td>
 </tr>
@@ -186,7 +184,6 @@ An AI-powered digital twin of India's climate and environment that explores geos
 
 </details>
 
-[**VIEW DEMO ▶**](YOUR_PRITHVINET_DEMO_URL)
 
 </td>
 
@@ -221,7 +218,6 @@ An AI-based voice security system designed to identify potentially fraudulent, r
 
 </details>
 
-[**VIEW DEMO ▶**](YOUR_VOICE_RAKSHAK_DEMO_URL)
 
 </td>
 </tr>
