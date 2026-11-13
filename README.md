@@ -1,7 +1,7 @@
-<!-- =================================================== -->
-<!-- ARYAN MANE | FUTURISTIC AI DEVELOPER PORTFOLIO       -->
-<!-- GitHub: aryanmane2007                                -->
-<!-- =================================================== -->
+<!-- ===================================================
+ ARYAN MANE | FUTURISTIC AI DEVELOPER PORTFOLIO
+ GitHub: aryanmane2007
+==================================================== -->
 
 <div align="center">
 
@@ -57,7 +57,8 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 **AREAS OF INTEREST**
 
-`Artificial Intelligence` · `Machine Learning` · `Deep Learning` · `Computer Vision` · `NLP` · `Data Analysis`
+`Artificial Intelligence`         · `Machine Learning`           · `Deep Learning`            · `Agentic AI` 
+· `Computer Vision`               · `NLP`                        · `Data Analysis`            · `RAG Pipeline`
 
 </div>
 
@@ -79,63 +80,62 @@ I'm Aryan Mane, an Artificial Intelligence and Machine Learning undergraduate wh
 
 <img src="./plant-disease.png" width="100%" alt="Plant Disease Detection"/>
 
-### AI Plant Disease Detection (SWARNA)
+### AI-Based Plant Disease Detection System
 
 AI-powered plant disease diagnosis and farmer assistance.
 
 `Python` `FastAPI` `MySQL` `Gemini API`
 
-[**MORE INFO ↗**](YOUR_PLANT_INFO_URL)
+[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=plant&view=info)
 
-[**DEMO ▶**](YOUR_PLANT_DEMO_URL)
+[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=plant&view=demo)
 
 </td>
 <td width="50%" valign="top">
 
-<img src="./zerogo.png" width="100%" alt="ZEROGO"/>
+<img src="./zerogo.png" width="100%" alt="GroundTruth"/>
 
-### AI Agent Verification & Safety System (ZEROGO)
+### GroundTruth — AI Agent Verification & Safety
 
-![Status](https://img.shields.io/badge/STATUS-WORK%20IN%20PROGRESS-FFB020?style=for-the-badge&logo=hammer&logoColor=black)
+An independent verification layer that checks user intent, evidence and proposed AI-agent actions before execution.
 
-🚧 Currently under development. More details and a demo coming soon.
+`AI` `NLP` `Python` `Agent Safety`
 
-[**MORE INFO ↗**](YOUR_ZEROGO_INFO_URL)
+[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=groundtruth&view=info)
 
-[**DEMO ▶**](YOUR_ZEROGO_DEMO_URL)
+[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=groundtruth&view=demo)
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
 <img src="./prithvinet.png" width="100%" alt="PrithviNet AI"/>
 
-### Intelligent Disaster Resilience System (PrithviNet AI)
+### PrithviNet AI — Climate & Disaster Intelligence
 
-A climate-focused digital twin exploring environmental and geospatial intelligence.
+A climate-focused digital twin exploring environmental and geospatial intelligence, disaster awareness and water-resource planning.
 
 `AI` `Geospatial Data` `Climate`
 
-[**MORE INFO ↗**](YOUR_PRITHVINET_INFO_URL)
+[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=prithvinet&view=info)
 
-[**DEMO ▶**](YOUR_PRITHVINET_DEMO_URL)
+[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=prithvinet&view=demo)
 
 </td>
 <td width="50%" valign="top">
 
 <img src="./voice-rakshak.png" width="100%" alt="Voice Rakshak"/>
 
-### AI-Based Voice Fraud Detection (Voice Rakshak)
+### Voice Rakshak — AI Voice Fraud Detection
 
-An AI-based concept for voice authenticity and fraud detection.
+An AI-based concept for voice authenticity analysis and potential audio-fraud detection.
 
 `Python` `Audio Processing` `AI`
 
-[**MORE INFO ↗**](YOUR_VOICE_RAKSHAK_INFO_URL)
+[**MORE INFO ↗**](https://aryanmane2007.github.io/aryanmane2007/?project=voice-rakshak&view=info)
 
-[**DEMO ▶**](YOUR_VOICE_RAKSHAK_DEMO_URL)
+[**VIEW DEMO ▶**](https://aryanmane2007.github.io/aryanmane2007/?project=voice-rakshak&view=demo)
 
 </td>
 </tr>
@@ -143,7 +143,7 @@ An AI-based concept for voice authenticity and fraud detection.
 
 <div align="center">
 
-[![Explore Projects](https://img.shields.io/badge/EXPLORE-ALL%20PROJECTS-00CFFF?style=for-the-badge&logo=github&logoColor=black)](YOUR_ALL_PROJECTS_URL)
+[![Explore Portfolio](https://img.shields.io/badge/OPEN-INTERACTIVE%20PROJECT%20PORTFOLIO-00CFFF?style=for-the-badge&logo=github&logoColor=black)](https://aryanmane2007.github.io/aryanmane2007/)
 
 *More projects and experiments coming soon...*
 
